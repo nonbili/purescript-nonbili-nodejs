@@ -1,0 +1,27 @@
+{
+  "name": "purescript-nonbili-nodejs",
+  "description": "Some helpful nodejs functions",
+  "authors": [
+    "Ping Chen <remotenonsense@gmail.com>"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/nonbili/purescript-nonbili-nodejs.git"
+  },
+  "license": "BSD-3-Clause",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "output",
+    "examples",
+    "docs"
+  ],
+  "dependencies": {
+    "purescript-effect": "^2.0.1",
+    "purescript-aff-promise": "^2.1.0"
+  },
+  "devDependencies": {
+    "purescript-console": "^4.3.0"
+  }
+}
