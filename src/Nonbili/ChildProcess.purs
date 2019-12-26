@@ -14,5 +14,7 @@ type ExecResult =
   }
 
 foreign import exec_ :: String -> Effect (Promise.Promise ExecResult)
+
+-- | A simple `exec` that runs in Aff.
 exec :: String -> Aff ExecResult
 exec = Promise.toAffE <<< exec_
